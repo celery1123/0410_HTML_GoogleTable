@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單練習</title>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section>
+            <br>
+        <form action="https://www.google.com/search" target="_blank">
+            <div class="answer">
+                <label style="font-size: 18px;">姓名<span style="color: red;">*</span>
+                    <br>
+                    <br>
+                    <input type="text" name="NAME" placeholder="您的回答" required 
+                    style="height: 20px; width: 50%;" class="underline-input">
+                </label>
+            </div>
+            <br>
+            <div class="answer">
+                <label style="font-size: 18px;">信箱<span style="color: red;">*</span>
+                <br>
+                <br>
+                <input type="email" name="EMAIL" placeholder="您的回答" required 
+                style="height: 20px; width: 50%; margin: auto;" class="underline-input">
+            </label>
+            </div>
+            <br>
+             <div class="answer">
+                <label style="font-size: 18px;">生日
+                <br>
+                <br>
+                <small>日期</small>
+                <br>
+                <br>
+                    <input type="date" name="BIRTHDAY" class="underline-input"
+                        style="height: 30px; width: 15%; margin: auto;">
+             </label>
+             </div>
+            <br>
+            <div class="answer">
+                <label style="font-size: 18px;">想對老師說悄悄話
+                <br>
+                <br>
+                <input type="textarea" name="MESSAGE" placeholder="您的回答" required 
+                        style="height: 20px; width: 100%; margin: auto;" class="underline-input">
+             </label>
+            </div>
+            <br>
+            <div class="answer">
+                <label style="font-size: 18px;">喜歡的顏色</label>
+                <br>
+                <br>
+                   <label>
+                       <input type="radio" name="FAVORITE_COLOR" value="red">
+                       紅色
+                   </label>
+                   <br>
+                   <br>
+                   <label>
+                       <input type="radio" name="FAVORITE_COLOR" value="blue">
+                       藍色
+                   </label>
+                   <br>
+                   <br>
+                   <label>
+                       <input type="radio" name="FAVORITE_COLOR" value="green">
+                       綠色
+                   </label>
+            </div>
+            <br>
+            <div class="answer">
+                <label style="font-size: 18px;">喜歡的飲食類型</label>
+                <br>
+                <br>
+                   <label>
+                       <input type="checkbox" name="FAVORITE_FOOD" value="chinese">
+                       中式
+                   </label>
+                   <br>
+                   <br>
+                   <label>
+                       <input type="checkbox" name="FAVORITE_FOOD" value="italian">
+                       義式
+                   </label>
+                   <br>
+                   <br>
+                   <label>
+                       <input type="checkbox" name="FAVORITE_FOOD" value="japanese">
+                       日式
+                   </label>
+                   <br>
+                   <br>
+                   <label>
+                       <input type="checkbox" name="FAVORITE_FOOD" value="korean">
+                       韓式
+                   </label>
+                   <br>
+                   <br>
+                   <label>
+                       <input type="checkbox" name="FAVORITE_FOOD" value="american">
+                       美式
+                   </label>
+                   <br>
+                   <br>
+                   <label>
+                       <input type="checkbox" name="FAVORITE_FOOD" value="thai">
+                       泰式
+                   </label>
+            </div>
+            <br>
+            <div class="answer">
+                <label style="font-size: 18px;">最想去的國家</label>
+            <br>
+            <br>
+                    <select name="COUNTRY" class="country">
+                      <option value="" selected disabled>請選擇</option>
+                          <optgroup label="亞洲"> 
+                             <option value="japan">日本</option>
+                             <option value="korea">韓國</option>
+                             <option value="thailand">泰國</option>
+                          </optgroup>
+                         <optgroup label="歐洲">
+                             <option value="italy">義大利</option>
+                             <option value="france">英國</option>
+                             <option value="germany">德國</option>
+                         </optgroup>
+                         <optgroup label="美洲">
+                             <option value="usa">美國</option>
+                             <option value="canada">加拿大</option>
+                         </optgroup>
+                    </select>
+            </div>
+            <br>
+            <div class="button">
+                <button type="submit"  class="summitButton">提交</button>
+                <button type="reset" class="resetButton">清除表單</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
