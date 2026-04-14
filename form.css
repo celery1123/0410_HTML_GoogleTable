@@ -101,4 +101,29 @@
         .FormButton{
             margin: auto;
         }
-            
+        
+        .pageEnd{
+            margin: auto;
+            width: 640px;
+            text-align: center;
+            padding: 24px;
+        }
+
+        .formTitle{
+            margin: auto;
+            width: 640px;
+            border:rgb(228, 228, 228) solid 1px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background-color: white;
+            font-family: '微軟正黑體';
+        }
+
+        .titleColor{
+            height: 10px;
+            background-color: #673AB7;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
