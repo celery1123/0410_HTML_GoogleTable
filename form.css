@@ -22,16 +22,19 @@
             padding: 5px 0;              /* 調整文字與底線的距離 */
             background: transparent;     /* 背景透明 */
         }
+
         select{
-            height: 50px; width: 30%;
+            height: 50px;
+            width: 30%;
             border-color: rgb(228, 228, 228);
         }
+
         form{
             margin: auto;
-            width: 750px;
+            width: 640px;
         }
+
         .answer{
-            width: 80%;
             margin-bottom: 12px;
             margin:auto;
             padding: 24px;
@@ -50,33 +53,52 @@
             border-bottom-left-radius: 8px;
             border-bottom-right-radius: 8px;
         }
-
+    
         .summitButton{
             font-size: 15px;
-            margin: auto;
             width: 70px;
             height: 35px;
             background-color: #673AB7;
-            color:white;
+            color: white;
             border: none;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             border-bottom-left-radius: 5px;
             border-bottom-right-radius: 5px;
-            display: block;
-            margin: auto;
-            float: left;
+        }
+        
+        .answerColor{
+            height: 170px;
         }
 
         .resetButton{
             font-size: 16px;
-            padding: 24px;
             color: #673AB7;
             font-family: sans-serif;
             border: none;                /* 去除所有邊框 */
             outline: none;               /* 去除點擊時的藍色框線 */
-            background: transparent; 
-            display: block;
-            margin: auto;
+            background: transparent;
             float: right;
         }
+
+        .clearButton{
+            font-size: 14px;
+            padding: 8px 8px;
+            color: rgb(95,99,104);
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+            outline: none;
+            float:right;
+        }
+
+        .clearButton:hover{
+            background-color: rgb(229, 229, 229);
+        }
+        
+        .FormButton{
+            margin: auto;
+        }
+            
