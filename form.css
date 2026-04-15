@@ -3,25 +3,6 @@
             background-color: #f0ebf8;
             margin:auto
         }
-        .title{
-            border: 1px solid black;
-            border-collapse: separate;
-            width: 50%;
-            height: 70px;
-            margin: auto;
-            border-top-left-radius: 30px;
-            border-top-right-radius: 30px;
-            border-bottom-left-radius: 30px;
-            border-bottom-right-radius: 30px;
-        }
-
-        .underline-input {
-            border: none;                /* 去除所有邊框 */
-            border-bottom: 2px solid rgb(228, 228, 228); /* 僅保留底線，可自訂顏色與寬度 */
-            outline: none;               /* 去除點擊時的藍色框線 */
-            padding: 5px 0;              /* 調整文字與底線的距離 */
-            background: transparent;     /* 背景透明 */
-        }
 
         select{
             height: 50px;
@@ -126,4 +107,24 @@
             background-color: #673AB7;
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
+        }
+
+        .title{
+            border: 1px solid black;
+            border-collapse: separate;
+            width: 50%;
+            height: 70px;
+            margin: auto;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        .underline-input {
+            border: none;                /* 去除所有邊框 */
+            border-bottom: 2px solid rgb(228, 228, 228); /* 僅保留底線，可自訂顏色與寬度 */
+            outline: none;               /* 去除點擊時的藍色框線 */
+            padding: 5px 0;              /* 調整文字與底線的距離 */
+            background: transparent;     /* 背景透明 */
         }
